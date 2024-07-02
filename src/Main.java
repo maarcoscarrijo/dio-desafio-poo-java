@@ -1,3 +1,4 @@
+import me.dio.desafio.dominio.Conteudo;
 import me.dio.desafio.dominio.Curso;
 import me.dio.desafio.dominio.Mentoria;
 
@@ -14,6 +15,8 @@ public class Main {
         curso2.setTitulo("Desenvolvendo Java com IA");
         curso2.setDescricao("Bootcamp DIO");
         curso2.setCargaHoraria(60);
+
+        Conteudo conteudo = new Curso();
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de Java");
